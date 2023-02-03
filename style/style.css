@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+    height: max-content;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: #171717;
+}
+a, button{
+    cursor: pointer;
+}
+/* firststrike */
+
+#primerGolpe{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(40deg,#2f0d40,#000000 40%,#c60c66 75%);    
+}
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentHeader{
+    width: 97%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    width: 13rem;
+    height: 6rem;
+}
+.contentLinks{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contentLinks a{
+    text-decoration: none;
+    color: white;
+}
+.contentPresentacion{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contenedorText{
+    position: relative;
+    right: -2rem;
+}
+.text{
+    position: relative;
+    right: -5rem;
+}
+.text  h1{
+    font-weight: 700;
+    font-size: 4rem;
+    width: 100%;
+}
+.pink{
+    color: #ff64ff;
+}
+.contentImgBeOne{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    left: -15rem;
+    top: -1rem;
+}
+.contentImgBeOne img{
+    width: 68rem;
+    max-width: 75rem;
+    height: 95%;
+}
+.text p{
+    width: 40%;
+    font-size: 1.1rem;
+    position: relative;
+    top: -3rem;
+}
+.email{
+    background-color: #ff64ff;
+    width: 40%;
+    height: 3.3rem;
+    border-radius: 20px;
+    position: relative;
+    top: -3rem;
+    left: 5rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+/* fin firststrike */
+/* crecimiento en un solo lugar fin */
+#Block{
+    width: 100%;
+    height: 85vh;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.relative{
+    position: relative;
+    left: 12rem;
+}
+.hombre{
+    width: 20rem;
+    height: 20rem;
+}
+.contentUp{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentTextUp h2{
+    font-size: 3.5rem;
+}
+.contentUp p{
+    width: 70%;
+}
+/* fin crecimiento en un solo lugar */
+
+/* preparadorQuienesSomos */
+#NosotrosPreparados{
+    width: 100%;
+    height: 100vh;
+}
+.quienesSomos{
+    width: 100%;
+    height: 50vh;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.quienesSomos h3{
+    font-size: 3rem;
+    color: white;
+}
+.quienesSomos p{
+    font-size: .9rem;
+    width: 90%;
+}
+.contentPreparados{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contentPreparados h3{
+    font-size: 1.7rem;
+}
+.preparados{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(-45deg,#5c1580,#c60c66);
+}
+#email{
+    width: 11rem;
+    height: 3rem;
+    border: none;
+    border-radius: .8rem;
+    background-color: #f41c84;
+    color: white;
+    font-weight: 700;
+}
+#whps{
+    border: 1px solid white;
+    width: 11rem;
+    height: 3rem;
+    border-radius: .8rem;
+    background: transparent;
+    color: white;
+    transition: .1s ease-in-out;
+}
+#whps:hover{
+    background: rgb(68, 224, 68);
+}
+
+#team{
+    width: 100%;
+    height: 100vh;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+#team h2{
+    font-size: 3rem;
+}
+.contentTeam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    box-shadow: 0px 0px 10px 10px #ff64ff;
+    width: 20rem;
+    height: 25rem;
+}
+.teamImg{
+    width: 100%;
+    height: 70%;
+    position: relative;
+    top: -.6rem;
+}
+.teamImg img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:1024px){
+    body{
+        overflow-x: hidden;
+    }
+    #primerGolpe{
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(40deg,#2f0d40,#000000 40%,#c60c66 75%);    
+    }
+    header{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contentHeader{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+    .text p{
+        width: 75%;
+    }
+    .contentLinks{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contentLinks a{
+        text-decoration: none;
+        color: white;
+    }
+    .contentImgBeOne{
+        width: 50%;
+        height: 100%;
+        position: relative;
+        left: -8rem;
+        top: 3rem;
+    }
+    .contentImgBeOne img{
+        max-width: 45rem;
+        height: 80%;
+    } 
+    /* fin firststrike */
+
+    /* crecimiento en un solo lugar fin */
+    #Block{
+        width: 100%;
+        height: 85vh;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    .relative{
+        position: relative;
+        left: 5rem;
+    }
+    .hombre{
+        width: 20rem;
+        height: 20rem;
+    }
+    .contentUp{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contentTextUp h2{
+        font-size: 2.5rem;
+    }
+    .contentUp p{
+        width: 85%;
+    }
+    /* fin crecimiento en un solo lugar */
+}
+
+@media screen and (max-width:960px){
+    #Block{
+        width: 100%;
+        height: 95vh;
+    }
+    .img{
+        display: none;
+    }
+    #primerGolpe{
+        height: 110vh;
+    }
+    .contentLinks{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .contentLinks a{
+        text-decoration: none;
+        color: white;
+        font-size: .8rem;
+    }
+    .contentPresentacion{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedorText{
+        position: relative;
+        right: 0rem;
+    }
+    .text{
+        position: relative;
+        right: -2rem;
+    }
+    .text  h1{
+        font-weight: 700;
+        font-size: 3rem;
+        width: 100%;
+    }
+    .pink{
+        color: #c60c66;
+    }
+    .text p{
+        width: 70%;
+        font-size: .9rem;
+        position: relative;
+        top: 0rem;
+    }
+    .email{
+        background-color: #da0f71;
+        width: 12rem;
+        height: 2.3rem;
+        border-radius: 20px;
+        position: relative;
+        top: 0rem;
+        left: 1.8rem;
+        color: white;
+        font-weight: bold;
+        border: none;
+    }
+    
+    /* fin firststrike */
+    /* crecimiento en un solo lugar fin */
+    #Block{
+        width: 100%;
+        height: max-content;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        text-align: center;
+    }
+    .relative{
+        position: relative;
+        left: 0rem;
+    }
+    .contentUp{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contentTextUp h2{
+        font-size: 1.5rem;
+    }
+    .contentUp p{
+        width: 100%;
+    }
+    /* fin crecimiento en un solo lugar */
+    
+    /* preparadorQuienesSomos */
+    #NosotrosPreparados{
+        width: 100%;
+        height: max-content;
+        text-align: center;
+    }
+    .quienesSomos{
+        width: 100%;
+        height: 70vh;
+        background-color: #171717;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .quienesSomos h3{
+        font-size: 2rem;
+        color: white;
+    }
+    .quienesSomos p{
+        font-size: .9rem;
+        width: 90%;
+    }
+    .contentPreparados{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        z-index: 100;
+    }
+    .contentPreparados h3{
+        font-size: 1.2rem;
+    }
+    .preparados{
+        width: 100%;
+        height: max-content;
+        z-index: 100;
+        background: linear-gradient(-45deg,#5c1580,#c60c66);
+    }
+    #email{
+        width: 8rem;
+        height: 2.4rem;
+        border: none;
+        border-radius: .8rem;
+        background-color: #f41c84;
+        color: white;
+        font-weight: 700;
+        font-size: .7rem;
+    }
+    #whps{
+        border: 1px solid white;
+        width: 8rem;
+        height: 2.4rem;
+        border-radius: .8rem;
+        background: transparent;
+        color: white;
+        transition: .1s ease-in-out;
+        font-size: .9rem;
+    }
+    #whps:hover{
+        background: rgb(68, 224, 68);
+    }
+    #team{
+        width: 100%;
+        height: 100vh;
+        background-color: #171717;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    #team h2{
+        font-size: 3rem;
+    }
+    .contentTeam{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        box-shadow: 0px 0px 10px 10px #ff64ff;
+        width: 12rem;
+        height: 17rem;
+    }
+    .teamImg{
+        width: 100%;
+        height: 70%;
+        position: relative;
+        top: 0;
+        overflow: hidden;
+    }
+    .teamImg img{
+        width: 100%;
+        height: 100%;
+    }
+}
